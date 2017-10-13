@@ -182,20 +182,20 @@ i {
     /*background-repeat: no-repeat;*/
     /*background-position: 50% 50%;*/
 /*}*/
-
-.goods
+ /*новый рэнж */
+.range
 {
     display: flex;
 
 }
-.goods-menu ul
+.range-menu ul
 {
     display: flex;
     margin-top:20px;
     list-style: none;
 
 }
-.goods-menu li
+.range-menu li
 {
     font-family: sans-serif;
     flex-wrap: wrap;
@@ -204,14 +204,14 @@ i {
     width: 185px;
     text-transform: uppercase;
 }
-.goods-menu a
+.range-menu a
 {
     color:#333;
     font-weight: bold;
     display: flex;
     justify-content: space-around;
 }
-.goods-menu a:hover
+.range-menu a:hover
 {
     color:#e9b637;
 }
